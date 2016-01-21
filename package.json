@@ -1,0 +1,20 @@
+{
+  "name": "healthLab-api",
+  "version": "0.0.0",
+  "description": "healthLab-api",
+  "author": "bretth18",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js --harmony_classes",
+    "worker": "node worker.js --harmony_classes"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "nodal": "latest"
+  },
+  "engines": {
+    "node": "4.2.4"
+  },
+  "private": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "{{= data.simpleName }}",
+  "version": "0.0.0",
+  "description": "{{= data.name }}",
+  "author": "{{= data.author }}",
+  "main": "server.js",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "dependencies": {
+    "nodal": "latest"
+  },
+  "devDependencies": {
+    "chai": "~3.4.1",
+    "mocha": "~2.3.4"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./test/runner.js",
+    "start": "node server.js --harmony",
+    "worker": "node worker.js --harmony"
+  },
+  "private": true
+}
